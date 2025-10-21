@@ -49,6 +49,12 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  font-size: 1.8em;
+  margin-top: 10em;
+  text-align: center;
+}
+
 .myTopFive {
   display: flex;
   justify-content: center;
@@ -57,14 +63,38 @@ h2 {
   
 }
 
+.myToFive {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 5rem 2rem 20rem 2rem;
+}
+
+.gameTitle {
+  font-size: 1.2em;
+  margin: 10px 0 0 0;
+}
+
 .gameCard {
   border: #535bf2 2px solid;
   box-shadow:  -5px 10px 24px -16px rgb(252, 100, 255);
   width: 25%;
   border-radius: 66px;
-  padding: 8px 30px;
+  padding: 18px 30px;
   display: grid;
   grid-template-rows: 2rem 4rem 3rem 5rem 3rem 3rem;
+}
+
+.gameCard2 {
+  border: #535bf2 2px solid;
+  box-shadow:  -5px 10px 24px -16px rgb(252, 100, 255);
+  width: 25%;
+  border-radius: 66px;
+  padding: 18px 30px;
+  display: grid;
+  grid-template-rows: 2rem 4rem 2rem 7rem 3rem 3rem;
+  align-items:center;
+  justify-content: left;
 }
 
 #app {
