@@ -25,6 +25,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
   font-family: Bahnschrift, "Segoe UI", "Franklin Gothic Medium", Arial, sans-serif;
@@ -42,6 +43,11 @@ h1 {
   font-size: 3.2em;
   line-height: 0.9;
   padding-left: 1rem;
+}
+
+h2 {
+  margin-top: 10rem;
+  font-size: 1.8em;
 }
 
 #app {
