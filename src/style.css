@@ -24,19 +24,17 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  min-width: 320px;
+  /* display: flex;
+  justify-content: center; */
+  /* min-width: 320px; */
   min-height: 100vh;
   font-family: Bahnschrift, "Segoe UI", "Franklin Gothic Medium", Arial, sans-serif;
 
 }
 
 header {
-  position: absolute;
-  width: 100vw;
-  border-bottom: 2px solid #213547;
-  box-shadow:  0 10px 24px -16px rgba(100,108,255,0.35);
+  border-bottom: 2px solid #535bf2;
+  box-shadow:  0 10px 24px -16px rgba(208, 100, 255, 0.35);
 }
 
 h1 {
@@ -46,8 +44,27 @@ h1 {
 }
 
 h2 {
-  margin-top: 10rem;
+  margin-top: 4rem;
   font-size: 1.8em;
+  text-align: center;
+}
+
+.myTopFive {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 5rem 2rem 0 2rem;
+  
+}
+
+.gameCard {
+  border: #535bf2 2px solid;
+  box-shadow:  -5px 10px 24px -16px rgb(252, 100, 255);
+  width: 25%;
+  border-radius: 66px;
+  padding: 8px 30px;
+  display: grid;
+  grid-template-rows: 2rem 4rem 3rem 5rem 3rem 3rem;
 }
 
 #app {

@@ -56,7 +56,7 @@ myTopGames.forEach((game) => {
   const rating = document.createElement("p");
   const hours = document.createElement("p");
 
-  div.className = "gameCard";
+  card.className = "gameCard";
   title.innerHTML = game.title;
   dev.innerHTML = game.developer;
   year.innerHTML = "Release: " + game.releaseYear;
@@ -64,10 +64,11 @@ myTopGames.forEach((game) => {
   rating.innerHTML = "My rating: " + game.myRating;
   hours.innerHTML = "Hours played: " + game.hoursPlayed;
 
-  div.appendChild(title);
-  div.appendChild(dev);
-  div.appendChild(year);
-  div.appendChild(genre);
-  div.appendChild(rating);
-  div.appendChild(hours);
+  card.appendChild(title);
+  card.appendChild(dev);
+  card.appendChild(year);
+  card.appendChild(genre);
+  card.appendChild(rating);
+  card.appendChild(hours);
+  div.appendChild(card);
 })
